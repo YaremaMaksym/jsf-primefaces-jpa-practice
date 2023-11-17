@@ -9,14 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7c4a662-60a9-4a6e-85cd-d56a32be9d21" name="Changes" comment="working with db using jdbc">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+    <list default="true" id="c7c4a662-60a9-4a6e-85cd-d56a32be9d21" name="Changes" comment="replaced jdbc with jpa">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/jsfprimefacesjpapractice/data/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/albums_by_artist.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jsfprimefacesjpapractice/beans/ArtistBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jsfprimefacesjpapractice/beans/ArtistBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jsfprimefacesjpapractice/dao/ArtistDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jsfprimefacesjpapractice/dao/ArtistDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jsfprimefacesjpapractice/data/Artist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jsfprimefacesjpapractice/data/Artist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +26,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="jsf" />
-        <option value="com.haulmont.jpb.JpaEntity" />
         <option value="Class" />
+        <option value="com.haulmont.jpb.JpaEntity" />
+        <option value="jsf" />
       </list>
     </option>
   </component>
@@ -46,7 +46,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2YFtxTAUrBn9QIwqGfH9NJT0nbP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -154,7 +156,7 @@
       <updated>1700133403421</updated>
       <workItem from="1700133404506" duration="7462000" />
       <workItem from="1700205107741" duration="934000" />
-      <workItem from="1700207058555" duration="1439000" />
+      <workItem from="1700207058555" duration="4182000" />
     </task>
     <task id="LOCAL-00001" summary="init jsf proj">
       <option name="closed" value="true" />
@@ -172,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700206487570</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="replaced jdbc with jpa">
+      <option name="closed" value="true" />
+      <created>1700208787322</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700208787322</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +202,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init jsf proj" />
     <MESSAGE value="working with db using jdbc" />
-    <option name="LAST_COMMIT_MESSAGE" value="working with db using jdbc" />
+    <MESSAGE value="replaced jdbc with jpa" />
+    <option name="LAST_COMMIT_MESSAGE" value="replaced jdbc with jpa" />
   </component>
 </project>

@@ -25,4 +25,8 @@ public class ArtistDao {
         Artist artist = em.find(Artist.class, id);
         em.remove(artist);
     }
+
+    public Artist find(int id) {
+        return em.find(Artist.class, id);
+    }
 }

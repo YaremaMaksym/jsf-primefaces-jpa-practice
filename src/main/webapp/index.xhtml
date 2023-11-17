@@ -25,6 +25,10 @@
                     <h:outputText value="#{a.name}"/>
                 </h:column>
                 <h:column>
+                    <f:facet name="header">Albums</f:facet>
+                    <h:commandButton value="show albums" action="#{artistBean.showAlbums(a.id)}"/>
+                </h:column>
+                <h:column>
                     <f:facet name="header">Delete</f:facet>
                     <h:commandButton value="delete" action="#{artistBean.delete(a.id)}"/>
                 </h:column>
