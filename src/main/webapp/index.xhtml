@@ -10,6 +10,7 @@
         <title>Artists</title>
     </h:head>
     <h:body>
+        <h:link value="View all albums" outcome="albums"/>
         <h:form>
             <h:inputText value="#{artistBean.artist.name}"/>
             <h:commandButton value="Add" action="#{artistBean.add()}"/>

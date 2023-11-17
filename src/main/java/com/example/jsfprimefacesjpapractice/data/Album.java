@@ -10,6 +10,9 @@ import lombok.Setter;
 @Setter
 @Entity
 @Table(name = "\"Album\"")
+@NamedQueries({
+        @NamedQuery(name = "Album.findAll", query = "select a from Album a")
+})
 public class Album {
     @Id
     @Column(name = "\"AlbumId\"", nullable = false)
