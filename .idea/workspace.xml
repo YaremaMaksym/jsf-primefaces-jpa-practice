@@ -9,13 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7c4a662-60a9-4a6e-85cd-d56a32be9d21" name="Changes" comment="init jsf proj">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/jsfprimefacesjpapractice/beans/ArtistBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/jsfprimefacesjpapractice/dao/ArtistDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/jsfprimefacesjpapractice/data/Artist.java" afterDir="false" />
+    <list default="true" id="c7c4a662-60a9-4a6e-85cd-d56a32be9d21" name="Changes" comment="working with db using jdbc">
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jsfprimefacesjpapractice/dao/ArtistDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jsfprimefacesjpapractice/dao/ArtistDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jsfprimefacesjpapractice/data/Artist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jsfprimefacesjpapractice/data/Artist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="jsf" />
+        <option value="com.haulmont.jpb.JpaEntity" />
         <option value="Class" />
       </list>
     </option>
@@ -40,9 +42,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2YFtxTAUrBn9QIwqGfH9NJT0nbP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -60,6 +62,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "configurable.group.com.haulmont.jpb.tools",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -150,6 +153,8 @@
       <option name="presentableId" value="Default" />
       <updated>1700133403421</updated>
       <workItem from="1700133404506" duration="7462000" />
+      <workItem from="1700205107741" duration="934000" />
+      <workItem from="1700207058555" duration="1439000" />
     </task>
     <task id="LOCAL-00001" summary="init jsf proj">
       <option name="closed" value="true" />
@@ -159,14 +164,34 @@
       <option name="project" value="LOCAL" />
       <updated>1700134917011</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="working with db using jdbc">
+      <option name="closed" value="true" />
+      <created>1700206487570</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700206487570</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init jsf proj" />
-    <option name="LAST_COMMIT_MESSAGE" value="init jsf proj" />
+    <MESSAGE value="working with db using jdbc" />
+    <option name="LAST_COMMIT_MESSAGE" value="working with db using jdbc" />
   </component>
 </project>
