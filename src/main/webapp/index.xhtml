@@ -4,6 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://xmlns.jcp.org/jsf/html"
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
       xmlns:f="http://xmlns.jcp.org/jsf/core">
 <f:view>
     <h:head>
@@ -11,29 +12,27 @@
     </h:head>
     <h:body>
         <h:link value="View all albums" outcome="albums"/>
-        <h:form>
-            <h:inputText value="#{artistBean.artist.name}"/>
-            <h:commandButton value="Add" action="#{artistBean.add()}"/>
+        <h:form id="add-artist-form">
+            <p:inputText value="#{artistBean.artist.name}"/>
+            <p:commandButton value="Add" action="#{artistBean.add()}" styleClass="ui-button-outlined"
+                             update=":add-artist-form :artist-table"/>
         </h:form>
-        <h:form>
-            <h:dataTable value="#{artistBean.artistList}" var="a">
-                <h:column>
-                    <f:facet name="header">Id</f:facet>
+        <h:form id="artist-table">
+            <p:dataTable value="#{artistBean.artistList}" var="a" stripedRows="true">
+                <p:column headerText="Id">
                     <h:outputText value="#{a.id}"/>
-                </h:column>
-                <h:column>
-                    <f:facet name="header">Name</f:facet>
+                </p:column>
+                <p:column headerText="Name">
                     <h:outputText value="#{a.name}"/>
-                </h:column>
-                <h:column>
-                    <f:facet name="header">Albums</f:facet>
-                    <h:commandButton value="show albums" action="#{artistBean.showAlbums(a.id)}"/>
-                </h:column>
-                <h:column>
-                    <f:facet name="header">Delete</f:facet>
-                    <h:commandButton value="delete" action="#{artistBean.delete(a.id)}"/>
-                </h:column>
-            </h:dataTable>
+                </p:column>
+                <p:column headerText="Albums">
+                    <p:commandButton value="show albums" action="#{artistBean.showAlbums(a.id)}" styleClass="ui-button-outlined ui-button-info"/>
+                </p:column>
+                <p:column headerText="Delete">
+                    <p:commandButton value="delete" action="#{artistBean.delete(a.id)}" styleClass="ui-button-outlined ui-button-danger"
+                    update=":artist-table"/>
+                </p:column>
+            </p:dataTable>
         </h:form>
     </h:body>
 </f:view>

@@ -9,12 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7c4a662-60a9-4a6e-85cd-d56a32be9d21" name="Changes" comment="Add view artist's albums">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/jsfprimefacesjpapractice/beans/AlbumBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/jsfprimefacesjpapractice/dao/AlbumDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/albums.xhtml" afterDir="false" />
+    <list default="true" id="c7c4a662-60a9-4a6e-85cd-d56a32be9d21" name="Changes" comment="Add view all albums page">
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jsfprimefacesjpapractice/data/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jsfprimefacesjpapractice/data/Album.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/albums.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/albums.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/albums_by_artist.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/albums_by_artist.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,6 +83,7 @@
   <component name="RunManager">
     <configuration name="GlassFish 6.8.0" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 6.8.0" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/jsf-primefaces-jpa-practice-1.0-SNAPSHOT" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="jsf-primefaces-jpa-practice:war exploded">
           <settings />
@@ -163,7 +164,7 @@
       <updated>1700133403421</updated>
       <workItem from="1700133404506" duration="7462000" />
       <workItem from="1700205107741" duration="934000" />
-      <workItem from="1700207058555" duration="7158000" />
+      <workItem from="1700207058555" duration="11676000" />
     </task>
     <task id="LOCAL-00001" summary="init jsf proj">
       <option name="closed" value="true" />
@@ -197,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700223347563</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add view all albums page">
+      <option name="closed" value="true" />
+      <created>1700225247703</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700225247703</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +228,7 @@
     <MESSAGE value="working with db using jdbc" />
     <MESSAGE value="replaced jdbc with jpa" />
     <MESSAGE value="Add view artist's albums" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add view artist's albums" />
+    <MESSAGE value="Add view all albums page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add view all albums page" />
   </component>
 </project>
